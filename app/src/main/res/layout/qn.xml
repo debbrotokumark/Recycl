@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            >
+
+
+            <RadioButton
+                android:theme="@style/MyRadioButton"
+                android:id="@+id/opcaoA"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Option A"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:theme="@style/MyRadioButton"
+
+                android:id="@+id/opcaoB"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Option B"
+                android:textSize="18sp"
+
+                />
+
+            <RadioButton
+                android:theme="@style/MyRadioButton"
+                android:id="@+id/opcaoC"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Option C"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/opcaoD"
+                android:theme="@style/MyRadioButton"
+            android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Option D"
+                android:textSize="18sp"
+
+                />
+
+
+
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/textdetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="মালদা থানার আইসি দীপক কুমার দাসকেও বদলি করে দেওয়া হয়েছে। তাঁকে দার্জিলিংয়ে বদলি করা হয়েছে। পুরুলিয়ার মানবাজারের সিআই সিদ্ধার্থ ঘোষকে .." />
+
+
+    </LinearLayout>
+</LinearLayout>
